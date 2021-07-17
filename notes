@@ -1,0 +1,64 @@
+/* ========== document.querySelectorAll() ========== */
+- Retorna uma lista de elementos presentes no documento que coincidam com o grupo de seletores especificado.
+
+EXEMPLO
+- Esse exemplo retorna uma lista de todos os elementos div presentes no document que contenham as classes "note" ou "alert":
+var matches = document.querySelectorAll("div.note, div.alert");
+
+
+
+
+
+
+
+
+
+
+/* ========== forEach() ========== */
+1º É uma função de objetos do tipo array;
+
+2º Ela serve para que você execute um bloco de código para cada um dos elementos desse array;
+
+3º Lembrando que array é um objeto que serve para que você armazene outros obejtos dentro dele em forma de lista;
+
+4º A função forEach() espera que você passe uma outra função onde ela tenha obrigatoriamente um parâmetro e outros 2 opcionais, ou seja, uma função de no máximo 3 parâmetros.
+
+
+
+
+
+
+
+
+
+
+/* ========== appendChild() ========== */
+- É um recurso que permite que você acrescente um elemento dentro do outro;
+
+EM INGLÊS
+> Append = acrescentar
+> Child = filho
+
+
+
+
+
+
+
+
+
+
+/* ========== && ========== */
+- Significa "e", "and"
+
+
+
+
+
+
+
+
+
+
+/* ========== OBSERVAÇÕES ========== */
+- Muitas funções do JavaScript carregam um nome que explica o que elas fazem e nos dão uma noção aproximada do que elas se tratam;

@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+
+.container {
+    background-color: #333;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+
+.draggable {
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    cursor: move; /* dá ao cursor um efeito de drag-and-drop */
+}
+
+
+/* é a class que foi criada no documento JavaScript, e é ativada enquanto o elemento está sendo arrastado */
+/* dá ao elemento que está sendo arrastado o efeito de opacidade */
+.draggable.dragging {
+    opacity: .5;
+}
